@@ -65,10 +65,10 @@ static const Key keys[] = {
     { MODKEY|ShiftMask,             XK_Return, zoom,           {0} }, // mod + Shift + Enter 使焦点窗口占满屏幕
     { MODKEY,                       XK_BackSpace, killclient,  {0} }, // mod + BackSpzce 关闭终端模拟器
     { MODKEY,                       XK_m,      spawn,          {.v = dmenucmd } }, // mod + m 打开应用菜单
-    { MODKEY,                       XK_j,      focusstack,     {.i = +1 } },// mod + l 移动焦点到下一个窗口
+    { MODKEY,                       XK_j,      focusstack,     {.i = +1 } },// mod + j 移动焦点到下一个窗口
     { MODKEY,                       XK_h,      focusstack,     {.i = -1 } },
-    { MODKEY,                       XK_d,      setmfact,       {.f = +0.05} }, // mod + a 增加主窗口大小
-    { MODKEY,                       XK_a,      setmfact,       {.f = -0.05} }, // mod + d 减少主窗口大小
+    { MODKEY,                       XK_d,      setmfact,       {.f = +0.05} }, // mod + d 增加主窗口大小
+    { MODKEY,                       XK_a,      setmfact,       {.f = -0.05} }, // mod + a 减少主窗口大小
     TAGKEYS(                        XK_1,                      0) // mod + 1 切换到标签 1
     TAGKEYS(                        XK_2,                      1)
     TAGKEYS(                        XK_3,                      2)
